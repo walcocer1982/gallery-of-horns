@@ -18,7 +18,10 @@ function HornedBeast(props) {
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>
           {props.description}
-          ❤️ Favoritos: {favorites}
+          <br />
+            ❤️ Favoritos: {favorites}
+            <br />
+            🦄 N de cuernos: {props.horns} {}
         </Card.Text>
       </Card.Body>
     </Card>
